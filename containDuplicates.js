@@ -5,7 +5,7 @@ function containsDuplicate(nums) {
       return true;
     } else {
       counterObject[num] = true;
-    }
+    } 
   }
   return false;
 }
